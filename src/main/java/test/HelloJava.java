@@ -17,7 +17,9 @@ public class HelloJava {
 		a.add("È«");
 		a.add("½Å");
 		a.add("¾È");
+		
 		a.add("±è");
+		
 		
 		int i = a.size();
 		
@@ -27,7 +29,6 @@ public class HelloJava {
 		String st = a.get(j).toString();
 		
 		System.out.println(st);
-		
 		
 		
 	}
