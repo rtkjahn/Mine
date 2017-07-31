@@ -1,4 +1,14 @@
+## maven 설치
+
+## maven project 시작
+java -cp maven_sample-1.0-SNAPSHOT.jar kr.rtruesoft.App
+
+mvn archetype:generate -DgroupId=kr.rtruesoft -DartifactId=maven_sample -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
 ## github 시작 
+
+
 **1. [gitHub](https://github.com) 가입**
 
 **2. [git](https://git-scm.com/downloads) 다운로드 및 설치**
