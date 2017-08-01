@@ -40,10 +40,12 @@ mvn archetype:generate -DgroupId=kr.rtruesoft -DartifactId=maven_sample -Darchet
 * 저장소와 로컬을 연결
 
 ```git remote add origin https://github.com/rtkjahn/Mine.git```
+
 이때,
+
 ``` fatal: remote origin already exists.``` 에러가 보이면
 
-``` git remote rm origin  ``` 후, 
+``` git remote rm origin  ``` 후,  
 
 * 저장소로 push
 
